@@ -378,8 +378,10 @@ size = customSize.value
     From : "rakibarhan13@gmail.com",
     Subject : name + " Ordered by  "+ usName,
     Body : ` 
+    <h3>Thank You ${usName} for your order with Vintage Cafe. We will get in touch with you to confirm your oder. 
+    Please see below the order details</h3> <br/><br/>
     <img height="200px" width="180px" src="http://vintage.metaconnect.com.bd/${productPhoto}" alt="" content-Type: image/jpeg> <br/>
-    Ordered Detail <br/>
+    <h4> Ordered Details<h4/> <br/>
     Product Name: ${name} <br/>
     product Price: ${price} <br/>
     Size: ${size} <br/>
@@ -396,14 +398,16 @@ size = customSize.value
 
     
 }).then(
-  message => alert("Order Placed")
+  message => alert("Order Placed. Contact You Soon")
 );
   Email.send({
     SecureToken : "c1e51b75-b340-44e4-850d-cfa33866d424",
     To : 'faysalsikder.hero@gmail.com',
     From : "rakibarhan13@gmail.com",
     Subject : name + " Ordered by  "+ usName,
-    Body : `<h3>Product Details<h3/>  <br/>
+    Body : `
+    <p>Customer Order Via Website. Please contact for payment and confirmation of the order. </p> <br/>
+    <h3>Product Details<h3/>  <br/>
     <img height="200px" width="180px" src="http://vintage.metaconnect.com.bd/${productPhoto}" alt="" content-Type: image/jpeg> <br/>
     Product Name: ${name} <br/>
     product Price: ${price} <br/>

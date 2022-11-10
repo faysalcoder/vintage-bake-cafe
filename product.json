@@ -81,7 +81,7 @@
       {
         "id": 5,
         "name": "Caramel Cake",
-        "price": 2200,
+        "price": 2400,
         "image": "assets/img/cakes/caramel-cake.jpg",
         "image1": "assets/img/cakes/no-image.jpg",
         "image2": "assets/img/cakes/no-image.jpg",
@@ -91,7 +91,7 @@
           "large"
         ],
       
-        "description": "",
+        "description": "A buttery soft vanilla layer cake blanketed with a simple caramel icing with layers of vanilla sponge cake and a mouth-watering caramel frosting.",
         "available": true,
         "catagory":"caramel",
         "level":"features"
@@ -187,7 +187,7 @@
           "chocolate"
          
         ],
-        "description": "",
+        "description": "Corporate cakes are usually ordered by companies to mark a special occasion, celebrate an event or as gifts for employees and clients. ",
         "available": true,
          "catagory":"corporate",
          "level":"features"
@@ -288,8 +288,8 @@
       },
       {
         "id": 16,
-        "name": "Mix fruit vanilla cake",
-        "price": 2200,
+        "name": "Mix fruit cake",
+        "price": 3000,
         "image": "assets/img/cakes/mix-fruit-vanila-cake.jpg",
         "image1": "assets/img/cakes/no-image.jpg",
         "image2": "assets/img/cakes/no-image.jpg",
@@ -299,9 +299,9 @@
           "large"
         ],
         
-        "description": "",
+        "description": "Mixed fruit cakes are soft, light, moist, creamy, and filled with seasonal fruits. ",
         "available": true, 
-        "catagory":"vanila",
+        "catagory":"custom",
         "level":"best"
       },
       {
@@ -531,8 +531,8 @@
       },
       {
         "id": 29,
-        "name": "Wedding cake",
-        "price": 3000,
+        "name": "Wedding cake (Vanilla/Chocolate)",
+        "price": "1900/2200",
         "image": "assets/img/cakes/wedding-cake.jpg",
         "image1": "assets/img/cakes/wedding-2.jpg",
         "image2": "assets/img/cakes/weddding-cake.jpg",
@@ -540,9 +540,12 @@
           "small",
           "medium",
           "large"
+        ],"flavour": [
+          "vanilla",
+          "chocolate"
         ],
        
-        "description": "",
+        "description": "Wedding cakes are the traditional cake served at wedding receptions. The cake is usually on display and served to guests at the reception. Wedding cakes come in a variety of sizes and comes in various flavours and designs that usually depend on the choice of the couple.",
         "available": true, 
         "catagory":"wedding",
         "level":"new"
@@ -597,6 +600,24 @@
         ],
         
         "description": "The Mocha cake is moist, fluffy and packed with chocolate and coffee flavor. Between each layer there is mocha buttercream, chocolate ganache and chopped chocolate covered espresso beans. ",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"new"
+      },
+      {
+        "id": 32,
+        "name": "Salted Caramel Cake",
+        "price": 2400,
+        "image": "assets/img/cakes/salted-caramel-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Salted Caramel cakes are the perfect combination of sweet and salty. Vanilla cakes topped with caramel buttercream frosting, drizzled with caramel sauce in each layer and a sprinkle of salt on top.",
         "available": true, 
         "catagory":"chocolate",
         "level":"new"
