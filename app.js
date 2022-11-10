@@ -92,7 +92,7 @@ const showDataOnUiSlider=(data)=>{
                <div class="action_links">
                    <ul class="d-flex justify-content-center">
                        <li class="quick_button">
-                           <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#modal_box">
+                           <a href="#" onclick="showSingleProduct(${product.id})" title="Quick View" data-bs-toggle="modal" data-bs-target="#modal_box">
                                Buy Now</a>
                        </li>
                    </ul>
