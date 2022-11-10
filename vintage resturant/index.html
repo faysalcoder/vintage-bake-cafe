@@ -1,0 +1,3446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Vintage Bake & Cafe">
+	<meta name="author" content="Faysal Sikder">
+	<title> Resturant | Vintage Bake & Cafe</title>
+
+	<!-- Favicons-->
+	<link rel="shortcut icon" href="../assets/img/logo/logo.png" type="image/x-icon">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
+		href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
+		href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- GOOGLE WEB FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<!-- BASE CSS -->
+	<link href="css/vendors.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- SPECIFIC CSS -->
+	<link href="css/wizard.css" rel="stylesheet">
+
+	<!-- YOUR CUSTOM CSS -->
+	<link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+	<header class="header clearfix element_to_stick">
+		<div class="layer"></div><!-- Opacity Mask Menu Mobile -->
+		<div class="container-fluid">
+			<div id="logo">
+				<a href="index.html">
+					<img src="img/logo.png" width="100" height="100" alt="" class="logo_normal">
+					<img src="img/logo.png" width="50" height="50" alt="" class="logo_sticky">
+				</a>
+			</div>
+
+			<!-- /top_menu -->
+			<a href="#0" class="open_close">
+				<i class="icon_menu"></i><span>Menu</span>
+			</a>
+			<nav class="main-menu">
+				<div id="header_menu">
+					<a href="#0" class="open_close">
+						<i class="icon_close"></i><span>Menu</span>
+					</a>
+					<a href="index.html"><img src="img/logo.png" width="100" height="100" alt=""></a>
+				</div>
+				<ul>
+
+					<li class="submenu">
+						<a href="#menu" class="show-submenu">Menu</a>
+						<ul>
+							<li><a href="#dishes" onclick="showDishes()">Main Dishes</a></li>
+							<li><a href="#coffee" onclick="showCoffee()">Coffee</a></li>
+							<li><a href="#drinks" onclick="showDrinks()">Drinks</a></li>
+
+						</ul>
+					</li>
+					<li class="submenu">
+						<a href="../index.html" class="show-submenu">Bakery</a>
+
+					</li>
+
+					<li><a href="tel:01766694543" class="btn_top">Reservation</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+	<!-- /header -->
+
+	<main>
+		<div id="carousel-home">
+			<div id="carousel-control" class="owl-carousel  owl-theme">
+				<div class="owl-slide cover lazy" data-bg="url(img/slides/1.jpg)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+						<div class="container">
+							<div class="row justify-content-center justify-content-md-end">
+								<div class="col-lg-6 static">
+									<div class="slide-text text-end white">
+										<h2 class="owl-slide-animated owl-slide-title">Taste<br>unique food</h2>
+										<p class="owl-slide-animated owl-slide-subtitle">
+											Cooking delicious food since 2020
+										</p>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1 btn_scroll"
+												href="tel:01766694543" role="button">Reservation</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/owl-slide-->
+				<div class="owl-slide cover lazy" data-bg="url(img/slides/2.jpg)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+						<div class="container">
+							<div class="row justify-content-center justify-content-md-start">
+								<div class="col-lg-6 static">
+									<div class="slide-text white">
+										<h2 class="owl-slide-animated owl-slide-title">Reserve<br>a Table Now</h2>
+										<p class="owl-slide-animated owl-slide-subtitle">
+											We love to cook for you and celibate your Quality time.
+										</p>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1"
+												href="tel:01766694543" role="button">Reservation</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/owl-slide-->
+				<div class="owl-slide cover lazy" data-bg="url(img/slides/4.jpg)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+						<div class="container">
+							<div class="row justify-content-center justify-content-md-start">
+								<div class="col-lg-12 static">
+									<div class="slide-text text-center white">
+										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>with Family & Friends</h2>
+										<p class="owl-slide-animated owl-slide-subtitle">
+											Ensure quality, healthy, hygienic 
+										</p>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1"
+												href="tel:01766694543" role="button">Reservation</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/owl-slide-->
+				</div>
+			</div>
+			<div id="icon_drag_mobile"></div>
+		</div>
+		<!--/carousel-->
+
+
+
+		<div class="pattern_2">
+			<div class="container margin_120_100 home_intro">
+				<div class="row justify-content-center d-flex align-items-center">
+					<div class="col-lg-5 text-lg-center d-none d-lg-block" data-cue="slideInUp">
+						<figure>
+							<!-- <img src="img/home_1_placeholder.png" data-src="img/home_1.jpg" width="354" height="440" alt="" class="img-fluid lazy"> -->
+							<video onloadstart="this.volume=0.3" poster="../assets/media/thumb.jpg"
+								class="img-fluid lazy" width="354" height="440" controls>
+								<source src="../assets/media/vintage video.mp4" type="video/mp4">
+
+								Your browser does not support the video tag.
+							</video>
+							<!-- <a href="../assets/media/vintage video.mp4" class="btn_play" data-cue="zoomIn" data-delay="500"><span class="pulse_bt"><i class="arrow_triangle-right"></i></span></a> -->
+						</figure>
+					</div>
+					<div class="col-lg-5 pt-lg-4" data-cue="slideInUp" data-delay="500">
+						<div class="main_title">
+							<span><em></em></span>
+							<h2>Some words about us</h2>
+							<p>vintage bake & café </p>
+						</div>
+						<p>We collect the best quality of ingredients From market. With the best execution we provide our guest fresh & very Delicious Food. Exceptional Service of our Staffs we maintained our standard as one of the most prominent fine dining restaurant in Dhaka city.</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+						<p><img src="img/signature.png" width="140" height="50" alt="" class="mt-3"></p>
+					</div>
+				</div>
+				<!--/row -->
+			</div>
+			<!--/container -->
+		</div>
+		<!--/pattern_2 -->
+
+		<div class="bg_gray">
+			<div class="container margin_120_100" data-cue="slideInUp">
+				<div class="main_title center mb-5">
+					<span><em></em></span>
+					<h2>Our Daily Menu</h2>
+				</div>
+				<!-- /main_title -->
+				<div class="banner lazy" data-bg="url(img/burger.jpg)">
+					<div class="wrapper d-flex align-items-center justify-content-between opacity-mask"
+						data-opacity-mask="rgba(0, 0, 0, 0.5)">
+						<div>
+							<small>Special Offer</small>
+							<h3>Beef Burger  &#2547; 250 only</h3>
+							<p>Hamburgher, Chips, Mix Sausages, Beer, Muffin</p>
+							<a href="tel:01766694543" class="btn_1">Reserve now</a>
+						</div>
+						<figure class="d-none d-lg-block"><img src="img/banner.svg" alt="" width="200" height="200"
+								class="img-fluid"></figure>
+					</div>
+					<!-- /wrapper -->
+				</div>
+				<!-- /banner -->
+				<main>
+
+
+					<!-- /hero_single -->
+
+
+					<div class="pattern_2" style="padding-top: 20px;" id="menu">
+						<div style="display: flex; justify-content:space-evenly; margin-top: 20px;">
+							<button  onclick="showDishes()" class="btn_1 outline">Main Dishes</button>
+							<!-- <button  onclick="showCoffee()" class="btn_1 outline">Coffee </button> -->
+							<button  onclick="showDrinks()" class="btn_1 outline">Coffee & Drinks</button>
+						</div>
+						<div class="container margin_60_40" data-cues="slideInUp">
+
+							<!-- /row -->
+
+
+							<!-- /banner -->
+							<div id="coffee" class="d-hide">
+								<!-- <div class="main_title center" id="dessertanddrinks">
+
+									<h2>Coffee	</h2>
+
+								</div>
+
+								<div class="main_title center add_top_60" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Italian Coffee</h2>
+									<p>Vintage Special Italian Coffees</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Espresso</h3><em>&#2547; 175</em>
+											</div>
+											<p>The savour and aroma of the Italian variable Espresso</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Americano </h3><em>&#2547; 190</em>
+											</div>
+											<p>A blend of Espresso with hot water</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Cappuccino Regular / Large</h3><em>&#2547; 240 / 395</em>
+											</div>
+											<p>Espresso with Micro foam</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Café latte Regular / Large</h3><em>&#2547; 275 / 425</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/8.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Flat white</h3><em>&#2547; 350</em>
+											</div>
+											<p>Double Espresso with hot milk & Micro foam</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/9.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Toffee Nut Latte Regular/ Large</h3><em>&#2547; 350 / 475</em>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Iced Signature coffee
+									</h2>
+									<p>Vintage Iced Signature coffee</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Iced Americano</h3><em>&#2547; 240</em>
+											</div>
+											<p>Espresso, ice cube and cold water</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Iced Cappuccino</h3><em>&#2547; 250</em>
+											</div>
+											<p>The ice-cold experience of the famous cappuccino</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Iced Latte</h3><em>&#2547; 310</em>
+											</div>
+											<p>Espresso short, ice cube & lots of cold milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Iced salted ceramal Latte </h3><em>&#2547; 350</em>
+											</div>
+											<p>Espresso shot, ice cube, salted caramel syrup and cold milks</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Hot Chocolate & Mocha
+									</h2>
+									<p>Vintage Hot Chocolate & Mocha</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Hot Chocolate Regular / Large</h3><em>&#2547; 300 / 425</em>
+											</div>
+											<p>Coco with hot steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Vintage Special chocolate Regular / Large</h3><em>&#2547; 325 /
+													475</em>
+											</div>
+											<p>Dark chocolate with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Mocha coffee Regular / Large</h3><em>&#2547; 325 / 475</em>
+											</div>
+											<p>Espresso coca with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>White chocolate Mocha Regular / Large </h3><em>&#2547; 335 /
+													475</em>
+											</div>
+											<p>Espresso white chocolate powder with steamed milk</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Ice Mocha
+									</h2>
+									<p>Vintage Special Ice Mocha</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Iced Mocha</h3><em>&#2547; 475</em>
+											</div>
+											<p>Blended espresso chocolate sauce with topped whipping cream</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Hazelnut Mocha</h3><em>&#2547; 475</em>
+											</div>
+											<p>Blended Espresso white chocolate powder & hazelnut syrup with cream</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Vanilla Mocha</h3><em>&#2547; 475</em>
+											</div>
+											<p>Blended espresso, white chocolate powder, vanilla syrup topped with
+												whipping
+												cream</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Toffee Nut Mocha </h3><em>&#2547; 380</em>
+											</div>
+											<p>Blended espresso white chocolate powder and toffee nut syrup, topped with
+												whipping cream</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Hot Chocolate & Mocha
+									</h2>
+									<p>Vintage Hot Chocolate & Mocha</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Hot Chocolate Regular / Large</h3><em>&#2547; 300 / 425</em>
+											</div>
+											<p>Coco with hot steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Vintage Special chocolate Regular / Large</h3><em>&#2547; 325 /
+													475</em>
+											</div>
+											<p>Dark chocolate with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Mocha coffee Regular / Large</h3><em>&#2547; 325 / 475</em>
+											</div>
+											<p>Espresso coca with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>White chocolate Mocha Regular / Large </h3><em>&#2547; 335 /
+													475</em>
+											</div>
+											<p>Espresso white chocolate powder with steamed milk</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Dessert and Drinks</h2>
+									<p>Cum doctus civibus efficiantur in imperdiet</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/3.jpg" title="Summer Berry"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Summer Berry</h3><em>&#2547; 8</em>
+											</div>
+											<p>Raspberries, Blackberries</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/4.jpg" title="Coconut Tart"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Coconut Tart</h3><em>&#2547; 10</em>
+											</div>
+											<p>Blueberries, Graham cracker crumbs</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/5.jpg" title="Pumpkin Cookies"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Pumpkin Cookies</h3><em>&#2547; 11</em>
+											</div>
+											<p>Pumpkin, Sugar, Butter</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/6.jpg" title="Cookies Cream Cheese"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Cookies Cream Cheese</h3><em>&#2547; 14</em>
+											</div>
+											<p>Sugar, Butter, Eggs</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/8.jpg" title="Chocolate Cupcakes"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/8.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate Cupcakes</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chocolate, Eggs, Vanilla</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/9.jpg" title="Chocolate Cupcakes"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/9.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate Cupcakes</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chocolate, Eggs, Vanilla</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/10.jpg" title="Soft shell crab"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/10.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Soft shell crab</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chicken, Potato, Salad</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/11.jpg" title="Soft shell crab"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/11.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Soft shell crab</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chicken, Potato, Salad</p>
+										</div>
+									</div>
+								</div> -->
+							</div>
+
+
+
+
+							<div id="drinks" class="d-hide">
+								<div class="main_title center" id="dessertanddrinks">
+
+									<h2 style="color:rgb(51, 17, 17) ;">Coffee	& Drinks</h2>
+
+								</div>
+
+								<div class="main_title center add_top_60" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Italian Coffee</h2>
+									<p>Vintage Special Italian Coffees</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Espresso</h3><em>&#2547; 175</em>
+											</div>
+											<p>The savour and aroma of the Italian variable Espresso</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Americano </h3><em>&#2547; 190</em>
+											</div>
+											<p>A blend of Espresso with hot water</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Cappuccino Regular / Large</h3><em>&#2547; 240 / 395</em>
+											</div>
+											<p>Espresso with Micro foam</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Café latte Regular / Large</h3><em>&#2547; 275 / 425</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/8.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Flat white</h3><em>&#2547; 350</em>
+											</div>
+											<p>Double Espresso with hot milk & Micro foam</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/9.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Toffee Nut Latte Regular/ Large</h3><em>&#2547; 350 / 475</em>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Iced Signature coffee
+									</h2>
+									<p>Vintage Iced Signature coffee</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Iced Americano</h3><em>&#2547; 240</em>
+											</div>
+											<p>Espresso, ice cube and cold water</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Iced Cappuccino</h3><em>&#2547; 250</em>
+											</div>
+											<p>The ice-cold experience of the famous cappuccino</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Iced Latte</h3><em>&#2547; 310</em>
+											</div>
+											<p>Espresso short, ice cube & lots of cold milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Iced salted ceramal Latte </h3><em>&#2547; 350</em>
+											</div>
+											<p>Espresso shot, ice cube, salted caramel syrup and cold milks</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Hot Chocolate & Mocha
+									</h2>
+									<p>Vintage Hot Chocolate & Mocha</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Hot Chocolate Regular / Large</h3><em>&#2547; 300 / 425</em>
+											</div>
+											<p>Coco with hot steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Vintage Special chocolate Regular / Large</h3><em>&#2547; 325 /
+													475</em>
+											</div>
+											<p>Dark chocolate with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Mocha coffee Regular / Large</h3><em>&#2547; 325 / 475</em>
+											</div>
+											<p>Espresso coca with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>White chocolate Mocha Regular / Large </h3><em>&#2547; 335 /
+													475</em>
+											</div>
+											<p>Espresso white chocolate powder with steamed milk</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Ice Mocha
+									</h2>
+									<p>Vintage Special Ice Mocha</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Iced Mocha</h3><em>&#2547; 475</em>
+											</div>
+											<p>Blended espresso chocolate sauce with topped whipping cream</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Hazelnut Mocha</h3><em>&#2547; 475</em>
+											</div>
+											<p>Blended Espresso white chocolate powder & hazelnut syrup with cream</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Vanilla Mocha</h3><em>&#2547; 475</em>
+											</div>
+											<p>Blended espresso, white chocolate powder, vanilla syrup topped with
+												whipping
+												cream</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Toffee Nut Mocha </h3><em>&#2547; 380</em>
+											</div>
+											<p>Blended espresso white chocolate powder and toffee nut syrup, topped with
+												whipping cream</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Hot Chocolate & Mocha
+									</h2>
+									<p>Vintage Hot Chocolate & Mocha</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Hot Chocolate Regular / Large</h3><em>&#2547; 300 / 425</em>
+											</div>
+											<p>Coco with hot steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Vintage Special chocolate Regular / Large</h3><em>&#2547; 325 /
+													475</em>
+											</div>
+											<p>Dark chocolate with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Mocha coffee Regular / Large</h3><em>&#2547; 325 / 475</em>
+											</div>
+											<p>Espresso coca with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>White chocolate Mocha Regular / Large </h3><em>&#2547; 335 /
+													475</em>
+											</div>
+											<p>Espresso white chocolate powder with steamed milk</p>
+										</div>
+									</div>
+
+
+
+
+								</div>
+
+								<!-- <div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Dessert and Drinks</h2>
+									<p>Cum doctus civibus efficiantur in imperdiet</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/3.jpg" title="Summer Berry"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Summer Berry</h3><em>&#2547; 8</em>
+											</div>
+											<p>Raspberries, Blackberries</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/4.jpg" title="Coconut Tart"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Coconut Tart</h3><em>&#2547; 10</em>
+											</div>
+											<p>Blueberries, Graham cracker crumbs</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/5.jpg" title="Pumpkin Cookies"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Pumpkin Cookies</h3><em>&#2547; 11</em>
+											</div>
+											<p>Pumpkin, Sugar, Butter</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/6.jpg" title="Cookies Cream Cheese"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Cookies Cream Cheese</h3><em>&#2547; 14</em>
+											</div>
+											<p>Sugar, Butter, Eggs</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/8.jpg" title="Chocolate Cupcakes"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/8.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate Cupcakes</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chocolate, Eggs, Vanilla</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/9.jpg" title="Chocolate Cupcakes"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/9.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate Cupcakes</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chocolate, Eggs, Vanilla</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/10.jpg" title="Soft shell crab"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/10.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Soft shell crab</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chicken, Potato, Salad</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/11.jpg" title="Soft shell crab"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/11.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Soft shell crab</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chicken, Potato, Salad</p>
+										</div>
+									</div>
+								</div> -->
+								<!-- <div class="main_title center" id="dessertanddrinks">
+
+									<h2>Drinks</h2>
+
+								</div> -->
+
+								<div class="main_title center add_top_60" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Milk Shakes </h2>
+									<p>Vintage Special Milk Shakes </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Chocolate Milk shake </h3><em>&#2547; 375</em>
+											</div>
+											<p>Chocolate Ice cream with Milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Mango Shake</h3><em>&#2547; 375</em>
+											</div>
+											<p>Mango Ice cream with Milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" Mango Ice cream with Milkdata-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Vanilla Shake</h3><em>&#2547; 375</em>
+											</div>
+											<p>Vanilla ice-cream with milk</p>
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/8.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Strawberry shake</h3><em>&#2547; 375</em>
+											</div>
+											<p>Strawberry ice-cream with milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/9.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate cookies Shake</h3><em>&#2547; 450</em>
+											</div>
+											<p>Chocolate cookies ice cream with milk</p>
+										</div>
+									</div>
+
+
+								</div>
+
+
+
+
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Italian Sodas
+									</h2>
+									<p>Vintage Special Italian Sodas </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Kiwi passion fruit soda</h3><em>&#2547; 365</em>
+											</div>
+											<p>Kiwi, Passion fruit mixed, with soda</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Green Apple Soda</h3><em>&#2547; 365</em>
+											</div>
+											<p>Green Apple fruit mix with Soda</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Raspberry soda</h3><em>&#2547; 365</em>
+											</div>
+											<p>Raspberry fruit mix with soda</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Lychee Soda</h3><em>&#2547; 365</em>
+											</div>
+											<p>Lychee fruit mix with soda</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Chai Soda</h3><em>&#2547; 365</em>
+											</div>
+											<p>Chai syrup mixed with soda</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Bluebrry Soda</h3><em>&#2547; 365</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Blue Osan</h3><em>&#2547; 365</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Coffee Soda</h3><em>&#2547; 365</em>
+											</div>
+											<p>Coffee Espresso with Soda</p>
+										</div>
+									</div>
+
+
+								</div>
+
+
+
+
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Mocktails
+									</h2>
+									<p>Vintage Special Mocktails</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Virgin Mojito Regular / Large</h3><em>&#2547; 280 / 350</em>
+											</div>
+											<p>Carbonated lime soda with lemon and mint syrup</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3> Mango Mojito Regular / Large</h3><em>&#2547; 280 /
+													350</em>
+											</div>
+											<p>Carbonated lime soda with mango and lemon syrup</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Pina-colada Mojito Regular / Large</h3><em>&#2547; 280 / 350</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title" style="margin-top: 0;">
+												<h3>Blue Osan Moctail Regular / Large </h3><em>&#2547; 280 /
+													350</em>
+											</div>
+											<p>Espresso white chocolate powder with steamed milk</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Pineapple Mojito Regular / Large </h3><em>&#2547; 280 /
+													350</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Peach Mojito </h3><em>&#2547; 280 </em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Lemonade
+									</h2>
+									<p>Vintage Special Lemonade </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Cloud Lemon Regular / Large</h3><em>&#2547; 280 / 350</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Mango Lemon</h3><em>&#2547; 350</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Lychee Lemon Regular / Large</h3><em>&#2547; 280 / 350</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Passion fruit Lemon Regular / Large</h3><em>&#2547; 280 / 350</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Lemon Mint Regular / Large</h3><em>&#2547; 280 / 350</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Blueberry Lemon Regular / Large</h3><em>&#2547; 280 / 350</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Margarita
+									</h2>
+									<p>Vintage Special Margarita </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Mango Margarita </h3><em>&#2547; 315</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Kiwi Margarita </h3><em>&#2547; 315</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Orange Margarita </h3><em>&#2547; 315</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Pina-Colada Margarita </h3><em>&#2547; 315</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Green Apple Margarita </h3><em>&#2547; 315</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Passion fruit Margarita </h3><em>&#2547; 315</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Seosonal Fresh Juice
+									</h2>
+									<p>Vintage Special Seosonal Fresh Juice </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Avocado fruit juice </h3><em>&#2547; 625</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Dragon fruit juice </h3><em>&#2547; 625</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Orange fruit Juice </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Guava Lemon fruit Juice </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Red grape juice </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Smoothies
+									</h2>
+									<p>Vintage Special Smoothies </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Mango Smoothies </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Strawberry Smoothies </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Peach Smoothies </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Blue berry smoothies </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Passion fruit smoothies </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Coconut smoothies </h3><em>&#2547; 375</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Frappe
+									</h2>
+									<p>Vintage Special Frappe </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Vanilla Frappe </h3><em>&#2547; 490</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Chocolate Frappe </h3><em>&#2547; 490</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Strawberry Frappe </h3><em>&#2547; 490</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Blueberry Frappe </h3><em>&#2547; 490</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Vintage Special Frappe </h3><em>&#2547; 490</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Caramel coconut Frappe </h3><em>&#2547; 490</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Iced Tea
+									</h2>
+									<p>Vintage Special Iced Tea </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Lemon Iced Tea </h3><em>&#2547; 400</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Peach Iced Tea </h3><em>&#2547; 400</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Apple Iced Tea </h3><em>&#2547; 400</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Orange Iced Tea </h3><em>&#2547; 400</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Chai Iced Tea </h3><em>&#2547; 400</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+
+								</div>
+
+
+
+								<div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Waffles
+									</h2>
+									<p>Vintage Special Waffles </p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Vanilla Waffles </h3><em>&#2547; 315</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Nutella Waffles </h3><em>&#2547; 400</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/menu_items_placeholder.png"
+													data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3> Chocolate Waffles </h3><em>&#2547; 565</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+
+
+								</div>
+
+								<!-- <div class="main_title center" id="dessertanddrinks">
+									<span><em></em></span>
+									<h2>Dessert and Drinks</h2>
+									<p>Cum doctus civibus efficiantur in imperdiet</p>
+								</div>
+								<div class="row magnific-gallery add_bottom_25">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/3.jpg" title="Summer Berry"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/3.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Summer Berry</h3><em>&#2547; 8</em>
+											</div>
+											<p>Raspberries, Blackberries</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/4.jpg" title="Coconut Tart"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/4.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Coconut Tart</h3><em>&#2547; 10</em>
+											</div>
+											<p>Blueberries, Graham cracker crumbs</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/5.jpg" title="Pumpkin Cookies"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/5.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Pumpkin Cookies</h3><em>&#2547; 11</em>
+											</div>
+											<p>Pumpkin, Sugar, Butter</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/6.jpg" title="Cookies Cream Cheese"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/7.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Cookies Cream Cheese</h3><em>&#2547; 14</em>
+											</div>
+											<p>Sugar, Butter, Eggs</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/8.jpg" title="Chocolate Cupcakes"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/8.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate Cupcakes</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chocolate, Eggs, Vanilla</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/9.jpg" title="Chocolate Cupcakes"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/9.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate Cupcakes</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chocolate, Eggs, Vanilla</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/10.jpg" title="Soft shell crab"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/10.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Soft shell crab</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chicken, Potato, Salad</p>
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+												<a href="img/menu_items/large/11.jpg" title="Soft shell crab"
+													data-effect="mfp-zoom-in">
+													<img src="img/menu_items/menu_items_placeholder.png"
+														data-src="img/menu_items/11.jpg" class="lazy" alt="">
+												</a>
+											</figure>
+											<div class="menu_title">
+												<h3>Soft shell crab</h3><em>&#2547; 14</em>
+											</div>
+											<p>Chicken, Potato, Salad</p>
+										</div>
+									</div>
+								</div> -->
+							</div>
+
+							
+							<div id="dishes" class="d-show">
+								<div class="main_title center" id="starter">
+									<span><em></em></span>
+									<h2>Platter</h2>
+									<p>Vintage Special Platters</p>
+								</div>
+								<div class="row add_bottom_45 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Tariyaki Chicken Platter.JPG" data-src="img/menu_items/Tariyaki Chicken Platter.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Tariyaki Chicken Platter</h3><em>&#2547; 440</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Beef Kala Bhuna Platter.JPG" data-src="img/menu_items/Beef Kala Bhuna Platter.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Beef Kala Bhuna Platter</h3><em>&#2547; 460</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Chicken Chilli Onion.JPG" data-src="img/menu_items/Chicken Chilli Onion.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Chili Onion Platter</h3><em>&#2547; 360</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Red Chilli Chicken Platter.JPG" data-src="img/menu_items/Red Chilli Chicken Platter.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Red Chili Chicken Platter</h3><em>&#2547; 380</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Pomfret Fish Platter.JPG" data-src="img/menu_items/Pomfret Fish Platter.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Pomfret Fish Platter</h3><em>&#2547; 550</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Koral Fish Platter.JPG" data-src="img/menu_items/Koral Fish Platter.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Koral Fish Platter</h3><em>&#2547; 450</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/fried chicken .jpg" data-src="img/menu_items/fried chicken .jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Fried Chicken Platter</h3><em>&#2547; 380</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Chicken Steak platter.jpg" data-src="img/menu_items/Chicken Steak platter.jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Steak Platter</h3><em>&#2547; 430</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Chicken Shaslik platter .JPG" data-src="img/menu_items/Chicken Shaslik platter .JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Shaslik Platter</h3><em>&#2547; 360</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Chicken Supreme Platter.JPG" data-src="img/menu_items/Chicken Supreme Platter.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Supreme Platter </h3><em>&#2547; 485</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Schezuan Platter With Peri Peri Chicken.JPG" data-src="img/menu_items/Schezuan Platter With Peri Peri Chicken.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Schezuan Platter With Peri Peri Chicken</h3><em>&#2547; 595</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Nasi Goring With Koral Fish Platter.JPG" data-src="img/menu_items/Nasi Goring With Koral Fish Platter.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Nasi Goring With Koral Fish Platter</h3><em>&#2547; 800</em>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+								<!-- /row -->
+								<div class="main_title center" data-cue="slideInUp" id="maindishes">
+									<span><em></em></span>
+									<h2>Hot Kitchen </h2>
+									<p>Vintage Hot Kitchen Items</p>
+								</div>
+								<div class="row add_bottom_25 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/chicken.JPG" data-src="img/menu_items/hotkitchen/chicken.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Burger</h3><em>&#2547; 220</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/prawn.JPG" data-src="img/menu_items/hotkitchen/prawn.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Prawn Burger</h3><em>&#2547; 360</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/chicken hot dog.JPG" data-src="img/menu_items/hotkitchen/chicken hot dog.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Hot dog Chicken</h3><em>&#2547; 145</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/hot sand.JPG" data-src="img/menu_items/hotkitchen/hot sand.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Sandwich Hot (With French fry)</h3><em>&#2547; 100</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/cold sand.JPG" data-src="img/menu_items/hotkitchen/club sand.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Sandwich Cold</h3><em>&#2547; 75</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/club sand.JPG" data-src="img/menu_items/hotkitchen/club sand.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Club Sandwich</h3><em>&#2547; 220</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/beef (1).JPG" data-src="img/menu_items/hotkitchen/beef (1).JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Beef Burger</h3><em>&#2547; 250</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/french fry.JPG" data-src="img/menu_items/hotkitchen/french fry.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>French Fry</h3><em>&#2547; 120</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/wages.JPG" data-src="img/menu_items/hotkitchen/wages.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Potato Wadges</h3><em>&#2547; 145</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/hotkitchen/tereyaki warp.JPG" data-src="img/menu_items/hotkitchen/tereyaki warp.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Tariyaki Chicken Wrap</h3><em>&#2547; 250</em>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+								<!-- <row>-->
+								<div class="main_title center" data-cue="slideInUp" id="maindishes">
+									<span><em></em></span>
+									<h2>Salad </h2>
+									<p>Vintage Special Salad</p>
+								</div>
+								<div class="row add_bottom_25 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Salad/Garden.JPG" data-src="img/menu_items/Salad/Garden.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Garden Fresh Salad</h3><em>&#2547; 250</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Salad/Greek.JPG" data-src="img/menu_items/Salad/Greek.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Greek Salad</h3><em>&#2547; 330</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Salad/hwain.JPG" data-src="img/menu_items/Salad/hwain.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Hawayain Salad</h3><em>&#2547; 350</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Salad/Tereyaki (1).JPG" data-src="img/menu_items/Salad/Tereyaki (1).JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Tariyaki Salad</h3><em>&#2547; 385</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<!-- /row -->
+								<!-- <row>-->
+								<div class="main_title center" data-cue="slideInUp" id="maindishes">
+									<span><em></em></span>
+									<h2>Savory </h2>
+									<p>Vintage Special Savory items</p>
+								</div>
+								<div class="row add_bottom_25 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/chicken samusa.JPG" data-src="img/menu_items/Savory/chicken samusa.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Samusa Fry</h3><em>&#2547; 75</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/mattun singara.JPG" data-src="img/menu_items/Savory/mattun singara.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Mutton Singara Fry</h3><em>&#2547; 75</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/no-image.jpg" data-src="img/menu_items/no-image.jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Wallington</h3><em>&#2547; 120</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/mashroom chees roll.jpg" data-src="img/menu_items/Savory/mashroom chees roll.jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Mushroom Cheese Roll</h3><em>&#2547; 85</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/vegetable roll.jpg" data-src="img/menu_items/Savory/vegetable roll.jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Vegetable Roll</h3><em>&#2547; 75</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/chilli roll.JPG" data-src="img/menu_items/Savory/chilli roll.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Chili Roll</h3><em>&#2547; 100</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/chicken pattes.JPG" data-src="img/menu_items/Savory/chicken pattes.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Patties</h3><em>&#2547; 100</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/rumali warp.JPG" data-src="img/menu_items/Savory/rumali warp.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Rumali Wrap</h3><em>&#2547; 95</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/no-image.jpg" data-src="img/menu_items/no-image.jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Ring Puff </h3><em>&#2547; 70</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/chocklate roll.JPG" data-src="img/menu_items/Savory/chocklate roll.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chocolate Roll</h3><em>&#2547; 65</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/chicken puff.JPG" data-src="img/menu_items/Savory/chicken puff.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Puff</h3><em>&#2547; 100</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/Russian bread.jpg" data-src="img/menu_items/Savory/Russian bread.jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Russian Bread</h3><em>&#2547; 140</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Savory/String bread.jpg" data-src="img/menu_items/Savory/String bread.jpg"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>String Bread</h3><em>&#2547; 100</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<!-- /row -->
+								<!-- <row>-->
+								<div class="main_title center" data-cue="slideInUp" id="maindishes">
+									<span><em></em></span>
+									<h2>Pasta </h2>
+									<p>Vintage Special Pasta</p>
+								</div>
+								<div class="row add_bottom_25 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/pasta/Seafood.JPG" data-src="img/menu_items/pasta/Seafood.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Cajun Seafood Pasta</h3><em>&#2547; 399</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/pasta/chicken mashroom.JPG" data-src="img/menu_items/pasta/chicken mashroom.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Mushroom Pasta</h3><em>&#2547; 399</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/pasta/mack & cheese.JPG" data-src="img/menu_items/pasta/mack & cheese.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Mac & Cheese Pasta</h3><em>&#2547; 349</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/pasta/spagheti.JPG" data-src="img/menu_items/pasta/spagheti.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Spaghetti Bolonises Pasta</h3><em>&#2547; 399</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<!-- /row -->
+
+								<!-- <row>-->
+								<div class="main_title center" data-cue="slideInUp" id="maindishes">
+									<span><em></em></span>
+									<h2>Pizza </h2>
+									<p>Vintage Special Pizza 9'/12'</p>
+								</div>
+								<div class="row add_bottom_25 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Pizza/BBQ blasst.JPG" data-src="img/menu_items/Pizza/BBQ blasst.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>BBQ Blast Pizza 9'/12'</h3><em>&#2547; 699 / 899</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Pizza/sea food.JPG" data-src="img/menu_items/Pizza/sea food.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Sea Food Pizza 9'/12'</h3><em>&#2547; 799 / 999</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Pizza/Tandoori.JPG" data-src="img/menu_items/Pizza/Tandoori.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Tanduri Chicken Pizza 9'/12'</h3><em>&#2547; 599 / 799</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/Pizza/chicken classic.JPG" data-src="img/menu_items/Pizza/chicken classic.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chicken Classic Pizza 9'/12'</h3><em>&#2547; 549 / 749</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<!-- /row -->
+
+								<!-- <row>-->
+								<div class="main_title center" data-cue="slideInUp" id="maindishes">
+									<span><em></em></span>
+									<h2>Noddles </h2>
+									<p>Vintage Special Noodles</p>
+								</div>
+								<div class="row add_bottom_25 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/noodles/Hakka.JPG" data-src="img/menu_items/noodles/Hakka.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Hakka Noddles</h3><em>&#2547; 350</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/noodles/Spider man.JPG" data-src="img/menu_items/noodles/Spider man.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Spiderman Chawmin</h3><em>&#2547; 350</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/noodles/chili garlic.JPG" data-src="img/menu_items/noodles/chili garlic.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Chilli Garlic Noddles</h3><em>&#2547; 350</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+								<!-- /row -->
+
+								<!-- <row>-->
+								<div class="main_title center" data-cue="slideInUp" id="maindishes">
+									<span><em></em></span>
+									<h2>Soup </h2>
+									<p>Vintage Special Soup Items</p>
+								</div>
+								<div class="row add_bottom_25 magnific-gallery">
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Thai clear.JPG" data-src="img/menu_items/soup/Thai clear.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Thai Soup Chicken/Seafood</h3><em>&#2547; 199 / 249</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Thick thai.JPG" data-src="img/menu_items/soup/Thick thai.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Thick Thai Soup Chicken/Seafood</h3><em>&#2547; 220 / 285</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Tom Yum.JPG" data-src="img/menu_items/soup/Tom Yum.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Tom Yum Soup Chicken/ Seafood</h3><em>&#2547; 249 / 299</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Cream of mashroom.JPG" data-src="img/menu_items/soup/Cream of mashroom.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Cream Of Mushroom Soup </h3><em>&#2547; 285</em>
+											</div>
+
+										</div>
+									</div>
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Cream of chicken.JPG" data-src="img/menu_items/soup/Cream of chicken.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Cream Of Chicken Soup</h3><em>&#2547; 199</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Tometo minestrone soup.JPG" data-src="img/menu_items/soup/Tometo minestrone soup.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Tomato Minestrone Soup</h3><em>&#2547; 199</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Vegetable clear.JPG" data-src="img/menu_items/soup/Vegetable clear.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Vegtable Clear Soup</h3><em>&#2547; 199</em>
+											</div>
+
+										</div>
+									</div>
+
+									<div class="col-lg-6" data-cue="slideInUp">
+										<div class="menu_item">
+											<figure>
+
+												<img src="img/menu_items/soup/Sweet corn soup.JPG" data-src="img/menu_items/soup/Sweet corn soup.JPG"
+													class="lazy" alt="">
+
+											</figure>
+											<div class="menu_title">
+												<h3>Sweet Corn Soup Veg/Chicken</h3><em>&#2547; 199 / 199</em>
+											</div>
+
+										</div>
+									</div>
+
+
+
+
+								</div>
+							</div>
+							<!-- /row -->
+							<p class="text-center"><a href="#0" class="btn_1 outline">Download Menu</a></p>
+						</div>
+						<!-- /container -->
+					</div>
+					<!-- /pattern_2 -->
+				</main>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bg_gray -->
+
+		<div class="call_section lazy" data-bg="url(img/slides/7.jpg)">
+			<div class="container clearfix">
+				<div class="row justify-content-center">
+					<div class="col-lg-5 col-md-6 text-center">
+						<div class="box_1" data-cue="slideInUp">
+							<h2>Celebrate<span>a Special Event with us!</span></h2>
+							<p>For those with pure food indulgence in mind, come and sate your desires with our ever-changing internationally and seasonally inspired dishes. We love food, lots of different food, just like you.</p>
+							<a href="#footer" class="btn_1 mt-3">Contact us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/call_section-->
+
+
+		<!-- /bottom-wizard -->
+		</form>
+		</div>
+		<!-- /Wizard container -->
+		</div>
+		</div>
+		<!-- /row -->
+		</div>
+		<!-- /container -->
+		</div>
+		<!-- /pattern_2 -->
+	</main>
+	<!-- /main -->
+
+	<footer id="footer">
+		<div class="frame black"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+					<div class="footer_wp">
+						<i class="icon_pin_alt"></i>
+						<h3>Address</h3>
+						<p>Happy Rahman Plaza, <br>
+							25-27,Kazi Nazrul Islam Ave, <br>
+							(Bangla Motor) Dhaka-1205 , <br>
+							Dhaka Division, Bangladesh</p>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+					<div class="footer_wp">
+						<i class="icon_tag_alt"></i>
+						<h3>Reservations</h3>
+						<p><a href="tel:01766694543">01766-694543</a><br><a href="#0">info@vintage.com.bd</a></p>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+					<div class="footer_wp">
+						<i class="icon_clock_alt"></i>
+						<h3>Opening Hours</h3>
+						<ul>
+							<li>Mon - Sat: 10am - 11pm</li>
+							<li>Sunday: Closed</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+					<h3>Keep in touch</h3>
+					<div id="newsletter">
+						<div id="message-newsletter"></div>
+						<form method="post" action="phpmailer/newsletter_template_email.php" name="newsletter_form"
+							id="newsletter_form">
+							<div class="form-group">
+								<input type="email" name="email_newsletter" id="email_newsletter" class="form-control"
+									placeholder="Your email">
+								<button type="submit" id="submit-newsletter"><i class="arrow_carrot-right"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- /row-->
+			<hr>
+			<div class="row">
+				<div class="col-sm-5">
+					<p class="copy">© Vintage Bake & Cafe - All rights reserved</p>
+				</div>
+				<div class="col-sm-7">
+					<div class="follow_us">
+						<!-- <ul>
+	                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/twitter_icon.svg" alt="" class="lazy"></a></li>
+	                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
+	                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
+	                        <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/youtube_icon.svg" alt="" class="lazy"></a></li>
+	                    </ul> -->
+					</div>
+				</div>
+			</div>
+			<p class="text-center"></p>
+		</div>
+	</footer>
+	<!--/footer-->
+
+	<div id="toTop"></div><!-- Back to top button -->
+
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>,
+						mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus,
+						pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam
+						dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt
+						sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum
+						accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum
+						sanctus, pro ne quod dicunt sensibus.</p>
+					<p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam
+						dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt
+						sensibus.</p>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- COMMON SCRIPTS -->
+	<script src="js/common_scripts.min.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/common_func.js"></script>
+	<script src="phpmailer/validate.js"></script>
+
+	<!-- SPECIFIC SCRIPTS (wizard form) -->
+	<script src="js/wizard/wizard_scripts.min.js"></script>
+	<script src="js/wizard/wizard_func.js"></script>
+	<script>
+		$(document).ready(function () {
+			var owl = $("#carousel-control");
+			owl.owlCarousel({
+				items: 1,
+				autoplay: true,
+				autoPlaySpeed: 5000,
+				autoPlayTimeout: 5000,
+				autoplayHoverPause: true
+			});
+		});
+		const showDrinks = () => {
+			document.getElementById("drinks").classList.remove("d-hide")
+			document.getElementById("dishes").classList.add("d-hide")
+			document.getElementById("coffee").classList.add("d-hide")
+
+
+		}
+		const showCoffee = () => {
+			document.getElementById("coffee").classList.remove("d-hide")
+			document.getElementById("dishes").classList.add("d-hide")
+			document.getElementById("drinks").classList.add("d-hide")
+		}
+		const showDishes = () => {
+			document.getElementById("dishes").classList.remove("d-hide")
+			document.getElementById("coffee").classList.add("d-hide")
+			document.getElementById("drinks").classList.add("d-hide")
+
+		}
+		
+	</script>
+</body>
+
+</html>

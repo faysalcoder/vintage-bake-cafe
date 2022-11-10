@@ -1,0 +1,606 @@
+
+
+[
+  {
+    "featuresProducts": [
+      {
+        "id": 1,
+        "name": "Bake Cheese Cake",
+        "price": 2800,
+        "image": "assets/img/cakes/bake-cheese-ckae.jpg",
+        "image1":"assets/img/cakes/bake-cheese-cake-2.jpg",
+        "image2":"assets/img/cakes/bake-cheese-cake-3.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "According to historians, an early form of baked cheesecake was a popular dish in Ancient Greece and may have been given to the athletes at the first Olympic. Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest, layer consists of a mixture of a soft, fresh cheese, eggs, and sugar.",
+        "available": true,
+         "catagory":"cheese",
+         "level":"features"
+
+      },
+      
+      {
+        "id": 2,
+        "name": "Black Forest Cake",
+        "price": 2200,
+        "image": "assets/img/cakes/black-forest.JPG",
+        "image1": "assets/img/cakes/black-forest-2.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "Typically, Black Forest cake consists of several layers of chocolate cake, with whipped cream and cherries between each layer. Then the cake is decorated with additional whipped cream, maraschino cherries, and chocolate shavings.",
+        "available": true, 
+        "catagory":"black-forest",
+        "level":"features"
+      },
+      
+      {
+        "id": 3,
+        "name": "Bluberry cheese cake ",
+        "price": 3000,
+        "image": "assets/img/cakes/blueberry-cheese.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "A classic Blueberry Cheesecake is delicious in its deep, smooth and tangy base that balances with the sweetness of an oozing blueberry compote topping. ",
+        "available": true, 
+        "catagory":"blueberry",
+        "level":"features"
+      },
+      {
+        "id": 4,
+        "name": "Butter Scotch Cake",
+        "price": 2400,
+        "image": "assets/img/cakes/butter-scotch.jpg",
+        "image1": "assets/img/cakes/butter-scotch-2.JPG",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "Butterscotch Cakes, usually decorated with hard candy sprinkle made by boiling brown sugar and butter and sometimes corn syrup together in water.",
+        "available": true, 
+        "catagory":"butter-scotch",
+        "level":"features"
+      },
+      {
+        "id": 5,
+        "name": "Caramel Cake",
+        "price": 2200,
+        "image": "assets/img/cakes/caramel-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+      
+        "description": "",
+        "available": true,
+        "catagory":"caramel",
+        "level":"features"
+      },
+      {
+        "id": 6,
+        "name": "Chcolate Moist Cake",
+        "price": 1800,
+        "image": "assets/img/cakes/chcolate-moist-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Moist cake is a cake that includes fresh ingredients to keep the crumb of the cake tender and soft. Storing the dessert properly helps to prevent a cake from drying out and losing its moisture.",
+        "available": true, 
+        "catagory":"chocolate"
+      },
+      {
+        "id": 7,
+        "name": "Chocolate Vanilla Cake",
+        "price": 1900,
+        "image": "assets/img/cakes/chocklate-vanila-cake-1kg.jpg",
+        "image1": "assets/img/cakes/chocklate-vanila-cake2.jpg",
+        "image2": "assets/img/cakes/vanilla-chocolate-cake.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Vanilla Cake actually refers to the flavor of a vanilla custard (aka the classic French way of making ice cream from cream and egg yolks). Vanilla cake mimic a custard flavor by including egg yolks in the batter.",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"new"
+      },
+      {
+        "id": 8,
+        "name": "Chocolate Cake ",
+        "price": 2200,
+        "image": "assets/img/cakes/chocolate-cake.JPG",
+        "image1": "assets/img/cakes/chocolate-cake-2.JPG",
+        "image2": "assets/img/cakes/chocolate-cake-3.JPG",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "Chocolate cake is made with chocolate. It can also include other ingredients. These include fudge, crème, and other sweeteners. The history of chocolate cake goes back to the 17th century. There are many myths and legends surrounding the origin of chocolate cake. Some stories say that the Aztecs developed chocolate cake, while other accounts credit the Europeans inventing this delicacy. No one is certain where the cake originated, but it’s a popular way to mark any special event! ",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"new"
+      },
+      {
+        "id": 9,
+        "name": "Chocolate Cake ",
+        "price": 2200,
+        "image": "assets/img/cakes/chocolate-cake-4.JPG",
+        "image1": "assets/img/cakes/Choclate-cake-5.jpg",
+        "image2": "assets/img/cakes/chocolate-cake-6.JPG",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Chocolate cake is made with chocolate. It can also include other ingredients. These include fudge, crème, and other sweeteners. The history of chocolate cake goes back to the 17th century. There are many myths and legends surrounding the origin of chocolate cake. Some stories say that the Aztecs developed chocolate cake, while other accounts credit the Europeans inventing this delicacy. No one is certain where the cake originated, but it’s a popular way to mark any special event! ",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"features"
+      }
+    ],
+    "bestSeller": [
+      
+      {
+        "id": 10,
+        "name": "Corporate Cake (Vanilla/Chocolate)",
+        "price": "1900/2200",
+        "image": "assets/img/cakes/corporate-cake.jpg",
+        "image1": "assets/img/cakes/corporate-cake-2.jpg",
+        "image2": "assets/img/cakes/corporate-cake3.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "flavour": [
+          "vanilla",
+          "chocolate"
+         
+        ],
+        "description": "",
+        "available": true,
+         "catagory":"corporate",
+         "level":"features"
+      },
+      {
+        "id": 11,
+        "name": "Fondant Cake (Vanilla/Chocolate)",
+        "price": "1900/2200",
+        "image": "assets/img/cakes/fondant-cake.jpg",
+        "image1": "assets/img/cakes/doll-cake.jpg",
+        "image2": "assets/img/cakes/fondant-cake-2.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "flavour": [
+          "vanilla",
+          "chocolate"
+        ],
+        
+        "description": "Fondant cake is covered in a smooth, thick layer of fondant. It is a type of sugar paste that is made from sugar, water, and gelatin.  ",
+        "available": true, 
+        "catagory":"custom",
+        "level":"features"
+      },
+      {
+        "id": 12,
+        "name": "Ittalian Chocolate Cake",
+        "price": 2000,
+        "image": "assets/img/cakes/ittalian-cake.jpg",
+        "image1": "assets/img/cakes/ittalian-chocolate-cake.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Italian chocolate cake is made with eggs, sugar, butter, flour, bitter cocoa powder and melted dark chocolate. The final result is a cake with an intense aroma and a soft, moist texture",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"features"
+      },
+      {
+        "id": 13,
+        "name": "Mango Mousse Cake",
+        "price": 3200,
+        "image": "assets/img/cakes/mango-moucce-cake.jpg",
+        "image1": "assets/img/cakes/mango-mousse-cake.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "This super-light Mango mousse cake recipe consists of a delicious buttery sponge layer and the airiest yogurt-based mousse loaded with fragrant mangos! It is a decadent cake made of a moist sponge topped with a creamy mango mousse.",
+        "available": true,
+         "catagory":"mousse",
+         "level":"features"
+      },
+      {
+        "id": 14,
+        "name": "Marble cake",
+        "price": 2200,
+        "image": "assets/img/cakes/marble-cake.jpg",
+        "image1": "assets/img/cakes/marble-cake-2.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "A classic marble cake is made up of chocolate and vanilla cake swirled together. Super traditional marbel cakes use more vanilla cake batter and swirl it with chocolate cake batter. ",
+        "available": true,
+         "catagory":"chocolate",
+         "level":"best"
+      },
+      {
+        "id": 15,
+        "name": "Miror Glaze Cake",
+        "price": 2400,
+        "image": "assets/img/cakes/miror-glaze-cake.jpg",
+        "image1": "assets/img/cakes/miror-glaze-cake-2.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "Mirror glaze cake has a nice taste. It's sweet but not too sweet and the flavors meld well with the cake and fillings. The outer finish gives the feel of a mirror. ",
+        "available": true,
+         "catagory":"custom",
+         "level":"best"
+      },
+      {
+        "id": 16,
+        "name": "Mix fruit vanilla cake",
+        "price": 2200,
+        "image": "assets/img/cakes/mix-fruit-vanila-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "",
+        "available": true, 
+        "catagory":"vanila",
+        "level":"best"
+      },
+      {
+        "id": 17,
+        "name": "Neutella Cheese Cake",
+        "price": 2800,
+        "image": "assets/img/cakes/neutella-cheese-cake.jpg",
+        "image1": "assets/img/cakes/neutella-cheese-cake-2.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "Nutella and cream cheese blend perfectly together yielding an indulgent cheesecake that isn’t overly sweet. This recipe is baked at a lower temperature so it remains silky and smooth. It practically glides across the tongue leaving you wanting more.",
+        "available": true,
+         "catagory":"cheese",
+         "level":"best"
+      },
+      {
+        "id": 18,
+        "name": "Opera Cake",
+        "price": 2400,
+        "image": "assets/img/cakes/opera-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Classic French cake is made with layers of almond sponge, potent coffee syrup, French buttercream, and chocolate ganache. ",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"best"
+      },
+      {
+        "id": 19,
+        "name": "Oreo Cheese Cake",
+        "price": 2200,
+        "image": "assets/img/cakes/oreo-cheese-cake-2.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Oreo Cheesecake is thick, creamy and filled with cookies and cream! It's baked in an Oreo crust and topped with white chocolate ganache and Oreo cookies!",
+        "available": true, 
+        "catagory":"cheese",
+        "level":"best"
+      },
+      {
+        "id": 20,
+        "name": "Fondant Design Cake (Vanilla/Chocolate)",
+        "price": "1900/2200",
+        "image": "assets/img/cakes/phondant-cake.jpg",
+        "image1": "assets/img/cakes/phondant-cake-2.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "flavour": [
+          "vanilla",
+          "chocolate"
+        ],
+       
+        "description": "Fondant cake is covered in a smooth, thick layer of fondant. It is a type of sugar paste that is made from sugar, water, and gelatin.  ",
+        "available": true, 
+        "catagory":"custom",
+        "level":"best"
+      },
+      {
+        "id": 21,
+        "name": "Photo Print Cake (Vanilla / Chocolate)",
+        "price": "1900/2200",
+        "image": "assets/img/cakes/photo-print-cake.jpg",
+        "image1": "assets/img/cakes/photo-print-cake-2.jpg",
+        "image2": "assets/img/cakes/photo-print-cake-3.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "flavour": [
+          "vanilla",
+          "chocolate"
+        ],
+       
+        "description": "Photo cakes are made with edible ink printing onto sugar-based frosting sheets or wafer paper that is then placed on top of the cake. Any picture can be print on the cake. ",
+        "available": true, 
+        "catagory":"custom",
+        "level":"best"
+      }
+    ],
+    "newItem": [
+      {
+        "id": 22,
+        "name": "Pinata Surprise Cake",
+        "price": 2200,
+        "image": "assets/img/cakes/pinata-cake-2.jpg",
+        "image1": "assets/img/cakes/neutella-cheese-cake.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+       
+        "description": "Pinata cake is a perfect surprise for a birthday or any occasion of surprises. It's filled with CANDY/Chocolate/ Cake/ Gifts etc. for a burst when the cake is break by a hammer into pieces.",
+        "available": true, 
+        "catagory":"custom",
+        "level":"best"
+      },
+      {
+        "id": 23,
+        "name": "Red Velvet Cake",
+        "price": 3000,
+        "image": "assets/img/cakes/red-velvet-cake.JPG",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Red velvet cake tastes like very mild cocoa with a slightly tart edge. The cream cheese frosting is the most forward flavor. Perhaps even more important than the taste is the texture: smooth, soft, tender and light with creamy icing.",
+        "available": true, 
+        "catagory":"special",
+        "level":"best"
+      },
+      {
+        "id": 24,
+        "name": "Strawberry Delight Cake",
+        "price": 3200,
+        "image": "assets/img/cakes/strawberry-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Strawberry Delight Cake, an incredibly fresh and delicious dessert bursting with berry and cream cheese filling and flavors. This delightful strawberry poke cake made with sweetened condensed milk, strawberries, and whipped topping that is a sweet treat for any occasion!",
+        "available": true, 
+        "catagory":"special",
+        "level":"best"
+      },
+      {
+        "id": 25,
+        "name": "Tiramisu Cake",
+        "price": 3000,
+        "image": "assets/img/cakes/tiramisu-cake.jpg",
+        "image1": "assets/img/cakes/tiramisu-cake-2-small.jpg",
+        "image2": "assets/img/cakes/tiramisu-cake-2-big.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Tiramisu is an elegant and rich layered Italian dessert made with delicate cookies, instant espresso, cheese, eggs, sugar and cocoa powder. Through the grouping of these diverse ingredients, an intense yet refined dish emerges that we called Tiramisu Cake.",
+        "available": true, 
+        "catagory":"cheese",
+        "level":"new"
+      },
+      {
+        "id": 26,
+        "name": "Twin Cake",
+        "price": 2200,
+        "image": "assets/img/cakes/twin-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "Multi layered Vanilla and Chocolate mixed twin cake is a great choice for celebration.  ",
+        "available": true, 
+        "catagory":"special",
+        "level":"new"
+      },
+      {
+        "id": 27,
+        "name": "Vanilla cake",
+        "price": 1900,
+        "image": "assets/img/cakes/vanila-cake.jpg",
+        "image1": "assets/img/cakes/vanilla-cake3.jpg",
+        "image2": "assets/img/cakes/vanilla-cake6.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "Vanilla Cake actually refers to the flavor of a vanilla custard (aka the classic French way of making ice cream from cream and egg yolks). Vanilla cake mimic a custard flavor by including egg yolks in the batter.",
+        "available": true, 
+        "catagory":"vanila",
+        "level":"new"
+      },
+      {
+        "id": 28,
+        "name": "Vanilla cake 1kg",
+        "price": 1900,
+        "image": "assets/img/cakes/vanilla-cake-1kg.jpg",
+        "image1": "assets/img/cakes/vanilla-cake2-1kg.jpg",
+        "image2": "assets/img/cakes/vanila-cake3-1kg.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Vanilla Cake actually refers to the flavor of a vanilla custard (aka the classic French way of making ice cream from cream and egg yolks). Vanilla cake mimic a custard flavor by including egg yolks in the batter.",
+        "available": true, 
+        "catagory":"vanila",
+        "level":"new"
+      },
+      {
+        "id": 29,
+        "name": "Wedding cake",
+        "price": 3000,
+        "image": "assets/img/cakes/wedding-cake.jpg",
+        "image1": "assets/img/cakes/wedding-2.jpg",
+        "image2": "assets/img/cakes/weddding-cake.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+       
+        "description": "",
+        "available": true, 
+        "catagory":"wedding",
+        "level":"new"
+      },
+      {
+        "id": 30,
+        "name": "White Forest Cake",
+        "price": 2200,
+        "image": "assets/img/cakes/white-forest-cake.JPG",
+        "image1": "assets/img/cakes/white-forest-cake2.JPG",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "White forest cake is a layer cake made of white sponge cake layered between cherry filling and a white chocolate whipped cream frosting. Topped with white chocolate shavings. ",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"new"
+      },
+      {
+        "id": 31,
+        "name": "Yoghurt Cheese Cake",
+        "price": 2400,
+        "image": "assets/img/cakes/yoghur-cheese-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "Yogurt cheesecake is a delicious lighter dessert, made with Greek yogurt, with a graham cracker crust and is topped with fresh fruits.",
+        "available": true, 
+        "catagory":"cheese",
+        "level":"new"
+      },
+      {
+        "id": 32,
+        "name": "Mocha Cake",
+        "price": 2200,
+        "image": "assets/img/cakes/mocha-cake.jpg",
+        "image1": "assets/img/cakes/no-image.jpg",
+        "image2": "assets/img/cakes/no-image.jpg",
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        
+        "description": "The Mocha cake is moist, fluffy and packed with chocolate and coffee flavor. Between each layer there is mocha buttercream, chocolate ganache and chopped chocolate covered espresso beans. ",
+        "available": true, 
+        "catagory":"chocolate",
+        "level":"new"
+      }
+    ]
+  }
+]
